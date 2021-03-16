@@ -7,6 +7,7 @@ export default function ComA() {
   return (
     <div>
       <div>{state.count ? state.count : "数据不存在"}</div>
+      <div>{state.loading ? 'loading中' : 'loading完成'}</div>
     </div>
   )
 }

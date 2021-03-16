@@ -14,7 +14,7 @@ export default function ComA() {
       dispatch({ type: "reset" })
     }
     if (type === 'update') {
-      dispatch({ type: "update", payload: asyncFetch({ count: 10 }) })
+      dispatch({ type: "update", payload: asyncFetch(10) })
     }
   }
   return (
